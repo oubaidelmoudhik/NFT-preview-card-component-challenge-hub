@@ -4,22 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/theniceguywastaken/NFT-preview-card-component-challenge-hub/blob/main/favicon-32x32.png?raw=true">
   
   <title>Frontend Mentor | NFT preview card component</title>
   <link rel="stylesheet" href="Style.css">
   
 </head>
 <body>
-<div>
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
+  <div class="maincontainer">
   
-  Creation of Jules Wyvern
+<div class="carddiv">
+  <div class="image">
+    <img class="nftcard" src="https://github.com/theniceguywastaken/NFT-preview-card-component-challenge-hub/blob/main/image-equilibrium.jpg?raw=true" alt="NFT card">
+    <div class="img_overlay">
+      <object data="file:///C:/Users/oubai/Downloads/HTML%20CSS%20practice/nft-preview-card-component-main/images/icon-view.svg" width="50px" height="50px" ></object>
+
+    </div>
+  </div>
+  <!-- <img class="nftcard" src="https://github.com/theniceguywastaken/NFT-preview-card-component-challenge-hub/blob/main/image-equilibrium.jpg?raw=true" alt="NFT card"> -->
+  <h2>Equilibrium #3429</h2>
+  <p class="description">Our Equilibrium collection promotes balance and calm.</p>
+  <div class="priceandtime">
+<div class="ethereum">
+  <object data="file:///C:/Users/oubai/Downloads/HTML%20CSS%20practice/nft-preview-card-component-main/images/icon-ethereum.svg" width="18px" height="18px" ></object>
+  <span class="price">0.041 ETH</span>
+</div>
+<div class="timeleft">
+  <object data="file:///C:/Users/oubai/Downloads/HTML%20CSS%20practice/nft-preview-card-component-main/images/icon-clock.svg" width="18px" height="18px"></object>
+  <span class="timeleft">3 days left</span>
+</div>
+</div>
+  <hr class="divider">
+  <div class="creatordiv">
+    <img class="creatorpic" src="https://github.com/theniceguywastaken/NFT-preview-card-component-challenge-hub/blob/main/image-avatar.png?raw=true" alt="Jules Wyvern">
+    <p class="description" id="createdby">Creation of <span class="creator">Jules Wyvern</span></p>
+  </div>
+</div>
+
 </div>
 <footer>
   <div class="attribution">
